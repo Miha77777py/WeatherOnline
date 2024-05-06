@@ -138,8 +138,8 @@ input {
   text-decoration: underline;
   font-weight: bold;
   opacity: 0;
-  -webkit-transition: opacity 0.2s;
-  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .is-hidden {
@@ -150,8 +150,8 @@ input {
 .main__text {
   margin: 0;
   opacity: 0;
-  -webkit-transition: opacity 0.2s;
-  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 
 .not-find {
@@ -165,5 +165,5 @@ input {
 
 .title {
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */

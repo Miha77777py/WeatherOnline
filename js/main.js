@@ -27,7 +27,7 @@ form.addEventListener("submit", (event) => {
         setTimeout(() => Array.from(document.getElementsByClassName("data__text"))
             .forEach(element => {
                 element.style.opacity = 1;
-            }), 100);
+            }), 200);
     })
     .catch(() => {
         if (document.querySelector(".form__input").value == "") {
@@ -53,7 +53,7 @@ form.addEventListener("submit", (event) => {
                 document.querySelector(".data").classList.toggle("is-hidden");
             } 
             document.querySelector(".main__text").innerText = "City undefined!";
-            setTimeout(() => document.querySelector(".main__text").classList.add("not-find"), 100);
+            setTimeout(() => document.querySelector(".main__text").classList.add("not-find"), 200);
             document.querySelector(".wrapper").style.height = "350px";
         }
         document.querySelector(".temp").innerText = "";
