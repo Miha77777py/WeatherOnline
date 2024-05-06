@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="icon" href="./img/icon.ico">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Weather</h1>
+        <form class="form">
+            <svg class="form__icon" width="30" height="30">
+                <use href="./img/symbol-defs.svg#icon-office"></use>
+            </svg>
+            <input type="text" class="form__input" placeholder="City">
+            <button class="form__btn" type="submit">Search!</button>
+        </form>
+        <p class="main__text"></p>
+        <ul class="data is-hidden">
+            <li class="data__item">
+                <p class="data__text name"></p>
+            </li>
+            <li class="data__item">
+                <p class="data__text desc"></p>
+            </li>
+            <li class="data__item">
+                <p class="data__text temp"></p>
+            </li>
+        </ul>
+    </div>
+    <script src="./js/config.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
